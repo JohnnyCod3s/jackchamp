@@ -494,7 +494,15 @@ background-size: 100%;
         padding: 12px 36px;
         margin: 2.5rem 0;
     }
+    
+     /* attempting to configure services for iphone */
+    .services__wrapper {
+        display: flex;
+        justify-content: center;
+    }
 }
+
+
 
 /* Service Section */
 .services {
