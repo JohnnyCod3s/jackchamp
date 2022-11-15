@@ -480,6 +480,10 @@ background-size: 100%;
     width: 100%; 
     height: auto;
     border-radius: 14px;
+} 
+
+.skitt-thumb {
+    width: 100%;
 }
 }      
 
