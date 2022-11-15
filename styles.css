@@ -344,11 +344,11 @@ background-size: 100%;
 
 }
 
-.vernazza__class {
+/* .vernazza__class {
     height: 500px;
     width: 500px;
     border-radius: 10px;
-}
+} */
 
 .main__btn {
     font-size: 1.8 rem;
@@ -440,8 +440,8 @@ background-size: 100%;
     }
 
     .main__img--card {
-        height: 425px;
-        width: 425px;
+        height: auto;
+        width: 100%;
     }
 
     .main__content {
@@ -485,8 +485,8 @@ background-size: 100%;
 
 @media screen and (max-width: 480px) {
     .main__img--card {
-        width: 250px;
-        height: 250px;
+        width: 100%;
+        height: auto;
     }
 
     .fa-users, .fa-layer-group {
