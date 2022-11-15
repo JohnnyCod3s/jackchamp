@@ -349,6 +349,19 @@ background: linear-gradient(to right, #4ca2cd, #67B26F); /* W3C, IE 10+/ Edge, F
           font-size: 1.5rem;
   
       } 
+
+      .thumbnail {
+        width: 100%;
+        
+      }
+
+      .music-video-title {
+        font-size: 1.5rem;
+      }
+
+      .footer__links {
+        margin-top: 880px;
+    }
   }
   
   @media screen and (max-width: 480px) {
