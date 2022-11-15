@@ -465,6 +465,24 @@ background-size: 100%;
       
 }
 
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    .footer__container {
+        top: 1000px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+.main__img--container img {
+    text-align: center;
+    width: 100%; 
+    height: auto;
+    border-radius: 14px;
+}
+}      
+
 @media screen and (max-width: 480px) {
     .main__img--card {
         width: 250px;
@@ -494,15 +512,20 @@ background-size: 100%;
         padding: 12px 36px;
         margin: 2.5rem 0;
     }
-    
-     /* attempting to configure services for iphone */
+
+    .main__img--container img {
+        text-align: center;
+        width: 100%; 
+        height: auto;
+        border-radius: 14px;
+    }
+
+    /* attempting to configure services for iphone */
     .services__wrapper {
         display: flex;
         justify-content: center;
     }
 }
-
-
 
 /* Service Section */
 .services {
@@ -659,11 +682,7 @@ background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, F
     }
 }
 
-@media screen and (max-width: 700px) {
-    .services__wrapper {
-        grid-template-columns: 1fr;
-    }
-}
+
 
 /* Footer Css */
 .footer__container {
@@ -774,6 +793,8 @@ background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, F
     .social__media--wrap {
         flex-direction: column;
     }
+
+    
 }
 
 @media screen and (max-width: 480px) {
@@ -781,5 +802,10 @@ background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, F
         margin: 0;
         padding: 10px;
         width: 100%;
+        top: 1000px;
+    }
+
+    .footer__container {
+        top: 1000px;
     }
 }
